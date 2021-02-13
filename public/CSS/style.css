@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#main table {
+    text-align: center;
+}
+
+.act {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.act button, .act a {
+    margin: 4px 5px 4px;
+}
+
+#pagestore, .notes{
+    background-color: lightslategray;
+    padding: 20px 60px;
+    margin: 35px 430px 80px;
+    border-radius: 25px;
+}
+
+hr{
+    border-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+    width: 100%;
+    text-indent: 10px;
+    border-radius: 4px;
+}
+
+.input{
+    margin-bottom: 1px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    text-indent: 10px;
+    height: 35px;
+}
+
+.form-input{
+    margin-top: 5px;
+}
+
+.btncr {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.btncr:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+#butt, #tab{
+    margin-left: 5px;
+}
